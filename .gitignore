@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+
+!flake.lock
+
+!*.nix
