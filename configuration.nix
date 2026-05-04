@@ -41,6 +41,8 @@
     nodejs
     ripgrep
     tree-sitter
+    zip
+    unzip
   ];
 
   programs.nvf = {
