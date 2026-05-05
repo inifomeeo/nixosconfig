@@ -36,6 +36,7 @@
     git
     vim
     neovim
+    vscode
     wget
     gcc
     nodejs
