@@ -36,7 +36,6 @@
     git
     vim
     neovim
-    vscode
     wget
     gcc
     nodejs
@@ -71,6 +70,8 @@
       vim.telescope.enable = true;
     };
   };
+
+  programs.nix-ld.enable = true;
 
 
   # This value determines the NixOS release from which the default
