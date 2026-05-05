@@ -43,6 +43,7 @@
     tree-sitter
     zip
     unzip
+    go
   ];
 
   programs.nvf = {
