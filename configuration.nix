@@ -62,8 +62,12 @@
       vim.statusline.lualine.enable = true;
 
       vim.languages.nix.enable = true;
+      vim.languages.python.enable = true;
+      vim.languages.typescript.enable = true;
+      vim.languages.go.enable = true;
       vim.languages.rust.enable = true;
       vim.languages.clang.enable = true;
+      vim.languages.yaml.enable = true;
       vim.languages.enableTreesitter = true;
 
       vim.autocomplete.nvim-cmp.enable = true;
