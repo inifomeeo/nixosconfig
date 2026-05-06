@@ -63,7 +63,7 @@
 
       vim.languages.nix.enable = true;
       vim.languages.python.enable = true;
-      vim.languages.typescript.enable = true;
+      vim.languages.ts.enable = true;
       vim.languages.go.enable = true;
       vim.languages.rust.enable = true;
       vim.languages.clang.enable = true;
