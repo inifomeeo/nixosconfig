@@ -44,6 +44,7 @@
     zip
     unzip
     go
+    lsd
     pandoc
   ];
 
