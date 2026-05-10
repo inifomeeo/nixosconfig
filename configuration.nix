@@ -44,6 +44,7 @@
     zip
     unzip
     go
+    pandoc
   ];
 
   programs.nvf = {
