@@ -36,11 +36,15 @@
     git
     vim
     neovim
+    lazygit
+    fd
     wget
     gcc
     nodejs
     ripgrep
     tree-sitter
+    python3
+    uv
     zip
     unzip
     go
@@ -59,17 +63,24 @@
       };
 
       vim.theme.enable = true;
-      vim.theme.name = "gruvbox";
-      vim.theme.style = "dark";
+      vim.theme.name = "rose-pine";
+      vim.theme.style = "moon";
 
       vim.statusline.lualine.enable = true;
 
+      vim.languages.bash.enable = true;
+      vim.languages.clang.enable = true;
+      vim.languages.cmake.enable = true;
+      vim.languages.docker.enable = true;
+      vim.languages.env.enable = true;
+      vim.languages.go.enable = true;
+      vim.languages.json.enable = true;
+      vim.languages.lua.enable = true;
+      vim.languages.make.enable = true;
+      vim.languages.markdown.enable = true;
       vim.languages.nix.enable = true;
       vim.languages.python.enable = true;
-      vim.languages.ts.enable = true;
-      vim.languages.go.enable = true;
-      vim.languages.rust.enable = true;
-      vim.languages.clang.enable = true;
+      vim.languages.typescript.enable = true;
       vim.languages.yaml.enable = true;
       vim.languages.enableTreesitter = true;
 
