@@ -51,6 +51,7 @@
     lsd
     gh
     pandoc
+    jq
   ];
 
   programs.nvf = {
@@ -87,6 +88,8 @@
       vim.autocomplete.nvim-cmp.enable = true;
 
       vim.telescope.enable = true;
+
+      vim.options.tabstop = 4;
     };
   };
 
