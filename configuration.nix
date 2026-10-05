@@ -52,6 +52,7 @@
     gh
     pandoc
     jq
+    postgresql
   ];
 
   programs.nvf = {
